@@ -1,8 +1,8 @@
 # MyAutoUpdater
 
-## 项目介绍
-* MyAutoUpdater基于开源项目AutoUpdater.NET修改而来，修改了一些BUG，优化了一些功能，其它说明详见[https://github.com/ravibpatel/AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET)。
-* MyAutoUpdater是一个基于Windows和.NET Framework 2.0+的自动升级程序，使用Visual Studio 2015开发，运行于Windows设备之上，依赖于.NET Framework 2.0+，用于Windows设备应用软件的自动升级。
+## Project Introduction
+* MyAutoUpdater is updated for fixing some bugs and optimizing some functions based on an open source project named "AutoUpdater.NET".Please visit [https://github.com/ravibpatel/AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET) for its other descriptions.
+* MyAutoUpdater is an auto updater program which is based on Windows and .NET Framework 2.0+,deveolped on Visual Studio 2015,designed for Windows devices, depending on .NET Framework 2.0+, and used for auto updating for application on Windows devices。
 * MyAutoUpdater是一个无服务端的、独立的客户端应用程序，被第三方应用软件通过进程调用传递命令行参数的方式来运行，对第三方应用软件代码无侵入。
 * MyAutoUpdater使用预定义格式的XML配置文件来获得升级信息，只需将第三方应用软件的待升级文件打包成单独的压缩文件并配置可访问的XML文件即可。
 

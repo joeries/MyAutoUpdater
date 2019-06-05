@@ -24,7 +24,7 @@ string mainExeName = "Demo";//third party application's name
 string curVersion = "1.5.2.123";//third party application's current version number
 string updaterUrl = "http://www.demo.com/updater.xml";//third party application's updating XML file URL
 string mainExePath = Path.Combine(startupPath, "demo.exe");//third party application's main executable file path
-string silent = "true";//if updating silent or not
+string silent = "true";//if upgrading silent or not
 
 ProcessStartInfo processInfo = new ProcessStartInfo();
 processInfo.FileName = updaterFile;

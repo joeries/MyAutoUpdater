@@ -2,7 +2,7 @@
 
 ## Project Introduction
 * MyAutoUpdater is updated for fixing some bugs and optimizing some functions based on an open source project named "AutoUpdater.NET".Please visit [https://github.com/ravibpatel/AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET) for its other descriptions.
-* MyAutoUpdater is an auto updater program which is based on Windows and .NET Framework 2.0+,developed on Visual Studio 2015,designed for Windows devices, depending on .NET Framework 2.0+, and used for auto updating for applications on Windows devices.
+* MyAutoUpdater is an auto updater program which is based on Windows and .NET Framework 2.0+,developed on Visual Studio 2015,designed for Windows devices, depending on .NET Framework 2.0+,and used for auto updating for applications on Windows devices.
 * MyAutoUpdater is a serverless and independent client program which is called by third party applications via process calling with command line args and it's non-intrusive to third party applications.
 * MyAutoUpdater uses preformatted XML file to store updating parameters.
 

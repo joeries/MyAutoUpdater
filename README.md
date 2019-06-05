@@ -4,15 +4,15 @@
 * MyAutoUpdater is updated for fixing some bugs and optimizing some functions based on an open source project named "AutoUpdater.NET".Please visit [https://github.com/ravibpatel/AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET) for its other descriptions.
 * MyAutoUpdater is an auto updater program which is based on Windows and .NET Framework 2.0+,developed on Visual Studio 2015,designed for Windows devices, depending on .NET Framework 2.0+, and used for auto updating for applications on Windows devices.
 * MyAutoUpdater is a serverless and independent client program which is called by third party applications via process calling with command line args and it's non-intrusive to third party applications.
-* MyAutoUpdater uses preformatted XML file to store updating params.
+* MyAutoUpdater uses preformatted XML file to store updating parameters.
 
 ## Command Line Parameters
-* The way to run MyAutoUpdater is that you could call process with 5 command line params;
+* The way to run MyAutoUpdater is that you could call process with 5 command line parameters;
 * 1st MainExeName:third party application's name for displaying in the winforms of MyAutoUpdater;
-* 2nd CurVersion:third party application's current version number(like 1.5.2.123) for comparing with its latest version number to determine updating or not;
+* 2nd CurVersion:third party application's current version number(like 1.5.2.123) for comparing with its latest version number to determine upgrading or not;
 * 3rd UpdaterUrl:third party application's xml file url(only for HTTP) storing updating params for called by MyAutoUpdater (XML's format follows below);
 * 4th MainExePath:third party application's main executable file path for auto running after dealed;
-* 5th Silent:if updating silent or not(Optional Value:true/false);
+* 5th Silent:if upgrading silent or not(Optional Value:true/false);
 * Code by C# follows:
 
 ```

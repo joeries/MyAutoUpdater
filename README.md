@@ -51,7 +51,7 @@ process.Start();
 ```
 
 * version:third party application's latest version number;
-* url:hird party application's packing file URL(only for HTTP) ending with .zip or .cab;
+* url:hird party application's packing file URL(only for HTTP) ending with .zip or .exe;
 * changelog:url of changelog file(not implemented);
 * mandatory:if necessary to upgrade(not implemented);
 * MyAutoUpdater will unpack it and cover old files if .zip suffix and run it if .exe suffix.

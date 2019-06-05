@@ -38,7 +38,7 @@ process.Start();
 * MyAutoUpdater is suitable to called in the init stage of third party application and the third party application should exit after calling.
 
 ## XML Format
-* XML format like below：
+* XML format like below:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

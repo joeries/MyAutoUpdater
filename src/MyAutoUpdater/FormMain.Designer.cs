@@ -44,7 +44,7 @@
             this.buttonCheckForUpdate.Name = "buttonCheckForUpdate";
             this.buttonCheckForUpdate.Size = new System.Drawing.Size(196, 40);
             this.buttonCheckForUpdate.TabIndex = 0;
-            this.buttonCheckForUpdate.Text = "检测新版本";
+            this.buttonCheckForUpdate.Text = "Check New Version";
             this.buttonCheckForUpdate.UseVisualStyleBackColor = true;
             this.buttonCheckForUpdate.Click += new System.EventHandler(this.ButtonCheckForUpdate_Click);
             // 
@@ -54,9 +54,9 @@
             this.labelVersion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVersion.Location = new System.Drawing.Point(9, 9);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(67, 15);
+            this.labelVersion.Size = new System.Drawing.Size(128, 15);
             this.labelVersion.TabIndex = 1;
-            this.labelVersion.Text = "当前版本：";
+            this.labelVersion.Text = "Current Version: 0.0.0.0";
             // 
             // timerInit
             // 
@@ -78,7 +78,7 @@
             this.MinimizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "自动升级程序";
+            this.Text = "MyAutoUpdater";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

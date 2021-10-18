@@ -5,6 +5,7 @@
 * MyAutoUpdater is an auto updater program which is based on Windows and .NET Framework 2.0+,developed on Visual Studio 2015,designed for Windows devices, depending on .NET Framework 2.0+,and used for auto updating for applications on Windows devices.
 * MyAutoUpdater is a serverless and independent client program which is called by third party applications via process calling with command line args and it's non-intrusive to third party applications.
 * MyAutoUpdater uses preformatted XML file to store updating parameters.
+* Nuget package name:Joeries.MyAutoUpdater.
 
 ## Command Line Parameters
 * The way to run MyAutoUpdater is that you could call process with 5 command line parameters;
